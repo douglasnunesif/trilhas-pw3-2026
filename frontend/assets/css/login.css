@@ -1,3 +1,4 @@
+/* Reset de estilos e configuração básica */
 *{
     margin: 0;
     padding: 0;
@@ -10,7 +11,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(180deg,#ffe600,#fbfbfa);
+    background: linear-gradient(180deg,#ffe600,#f7f7aa);
 }
 
 /*Caixa de Login*/
@@ -20,4 +21,62 @@ body{
     width: 350px;
     border-radius: 10px;
     box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/*Container central*/
+.login-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Estilo do título*/
+.login-box h2{
+    margin-bottom: 25px;
+    color: #666;
+}
+
+/*Estilo do text*/
+.login-box p{
+    margin-bottom:25px;
+    color: #666;
+}
+
+
+/*Estilo dos campos de entrada*/
+.login-box input{
+    width: 100%;
+    padding:12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+/*Efeito de foco nos campos de entrada*/
+.login-box input:focus{
+    border-color: #ffd000;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(255, 208, 0, 0.5);
+}
+
+/*Estilo do botão de login*/
+.login-box button{
+    width: 100%;
+    padding: 12px;
+    background-color: #3483fa;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-box button:hover{
+    font-size: 17px;
+    background-color: #2968c8;
+    box-shadow: 0px 0px 15px rgba(3, 21, 47, 0.3);
 }
