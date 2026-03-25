@@ -39,6 +39,7 @@ body{
 
 /*Estilo do text*/
 .login-box p{
+    font-size: 16.5px;
     margin-bottom:25px;
     color: #666;
 }
