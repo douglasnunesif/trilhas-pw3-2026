@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/global.css" />
     <link rel="stylesheet" href="assets/css/login.css" />
+
     <title>Login - Mercado Trilhas</title>
   </head>
   <body>
@@ -11,9 +13,15 @@
       <div class="login-box">
         <h2>Bem-vindo</h2>
         <p>Faça login para acessar a sua conta</p>
-        <input type="email" id="email" placeholder="E-mail" />
-        <input type="password" id="password" placeholder="Senha" />
-        <button id="loginButton" onclick="login()">Entrar</button>
+        <input class="input" type="email" id="email" placeholder="E-mail" />
+        <input
+          class="input"
+          type="password"
+          id="password"
+          placeholder="Senha"
+        />
+        <button class="btn" id="loginButton" onclick="login()">Entrar</button>
+        <a href="register.html" class="link">Criar Conta</a>
       </div>
     </div>
     <script src="./assets/js/login.js"></script>

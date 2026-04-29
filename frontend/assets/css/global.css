@@ -1,0 +1,71 @@
+/* Reset de estilos e configuração básica */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: linear-gradient(180deg, #ffe600, #f7f7aa);
+}
+
+/* Navbar estilo marketplace */
+.navbar {
+  background: #ffe600;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/*Estilo do botão*/
+.btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #3483fa;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  font-size: 17px;
+  background-color: #2968c8;
+  box-shadow: 0px 0px 15px rgba(3, 21, 47, 0.3);
+}
+
+/* Inputs */
+.input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+/*Efeito de foco nos campos de entrada*/
+.login-box input:focus {
+  border-color: #ffd000;
+  outline: none;
+  box-shadow: 0px 0px 5px rgba(255, 208, 0, 0.5);
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
