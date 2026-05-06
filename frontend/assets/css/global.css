@@ -7,6 +7,7 @@
 }
 
 body {
+  height: 100vh;
   background: linear-gradient(180deg, #ffe600, #f7f7aa);
 }
 
@@ -24,7 +25,6 @@ body {
   max-width: 900px;
   margin: 40px auto;
   padding: 20px;
-  height: 80vh;
 }
 
 /*Estilo do botão*/
@@ -58,7 +58,7 @@ body {
 }
 
 /*Efeito de foco nos campos de entrada*/
-.login-box input:focus {
+input:focus {
   border-color: #ffd000;
   outline: none;
   box-shadow: 0px 0px 5px rgba(255, 208, 0, 0.5);
