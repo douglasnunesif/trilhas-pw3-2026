@@ -8,6 +8,8 @@
 
 body {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
   background: linear-gradient(180deg, #ffe600, #f7f7aa);
 }
 
@@ -22,8 +24,10 @@ body {
 }
 
 .container {
-  max-width: 900px;
-  margin: 40px auto;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 20px;
 }
 

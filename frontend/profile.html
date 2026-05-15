@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Perfil</title>
+    <link rel="stylesheet" href="assets/css/global.css" />
+    <link rel="stylesheet" href="assets/css/profile.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <span>🛒 Minha Conta</span>
+    </div>
+    <div class="container">
+      <div class="card">
+        <h2>Meu Perfil</h2>
+        <input class="input" id="name" />
+        <input class="input" id="email" />
+        <input
+          class="input"
+          id="password"
+          type="password"
+          placeholder="Nova senha"
+        />
+        <button class="btn" onclick="updateUser()">Atualizar</button>
+        <button class="btn delete" onclick="deleteUser()">Excluir Conta</button>
+      </div>
+    </div>
+    <script src="assets/js/user.js"></script>
+  </body>
+</html>

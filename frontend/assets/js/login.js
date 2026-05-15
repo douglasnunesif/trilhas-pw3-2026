@@ -8,9 +8,9 @@ async function login() {
 
   //testanto se os campos estão vazios
 
-  if(!email && !password){
+  if (!email && !password) {
     alert("Campos de email e senha obrigatórios.");
-    return; 
+    return;
   }
   if (!email) {
     alert("Campo de email obrigatório.");
@@ -37,9 +37,9 @@ async function login() {
     localStorage.setItem("role", data.role);
     alert("Login bem-sucedido!");
     if (data.role === "admin") {
-      window.location.href = "dashboard-adm.html";
+      window.location.href = "profile.html";
     } else {
-      window.location.href = "dashboard-cli.html";
+      window.location.href = "profile.html";
     }
   } else {
     alert("Erro no login: " + data.message);
