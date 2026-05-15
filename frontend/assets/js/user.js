@@ -20,6 +20,7 @@ async function loadProfile() {
   const user = await res.json();
   document.getElementById("name").value = user.name;
   document.getElementById("email").value = user.email;
+  document.getElementById("password").value = user.password;
 }
 
 async function updateUser() {

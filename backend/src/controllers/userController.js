@@ -28,6 +28,7 @@ exports.getProfile = (req, res) => {
         message: "Usuário não encontrado",
       });
     } else {
+      console.log(user);
       res.json(user);
     }
   });

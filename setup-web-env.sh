@@ -14,7 +14,6 @@ sudo apt purge -y \
     nodejs \
     npm \
     code \
-    git \
     yarn \
     eslint \
     snapd || true
